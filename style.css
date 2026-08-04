@@ -1,13 +1,17 @@
-
+@font-face {
+    font-family:"hola123" ;
+    src: url(fonts/ChakraPetch-BoldItalic.ttf);
+}
 .navbar {
     background-color: #6f7780 !important; 
 }
 
-
+body{
+    font-family: "hola123";
+}
 .navbar .navbar-brand, .navbar .nav-link {
     color: #ffffff !important;
 }
-
 
 .navbar .nav-link:hover {
     color: rgba(255, 255, 255, 0.75) !important;
@@ -20,57 +24,54 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-   background-color: #34689c;
-    
+    background-color: #34689c;
 }
 
-
 #carouselExample {
-    max-width: 900px; 
+    max-width: 1100px; 
     width: 100%;
-    margin: 30px auto 0 auto; 
+    margin: 20px auto 0 auto; 
     border-radius: 12px; 
     overflow: hidden;
     flex: 0 0 auto;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
-
 .carousel-item img {
-    height: 500px; 
+    height: 620px; 
     object-fit: cover; 
 }
 
-
 .btns1 {
-    flex: 1 0 auto; 
+    flex: 0 0 auto; 
     text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
+.btns1 .btn-custom {
+    background-color: #9c6834;
+    border-color: #835527;
+    color: #ffffff;
+    margin: 0 5px;
+}
 
-
+.btns1 .btn-custom:hover {
+    background-color: #835527;
+    border-color: #6a431d;
+    color: #ffffff;
+}
 
 .ftr1 {
-   background-color: #6f7780;
+    background-color: #6f7780;
     text-align: center;
     padding: 15px;
     margin-top: auto; 
     width: 100%;
 }
 
- .ftr1{
-           background-color: #6f7780;
-            text-align: center;
-            padding: 15px;
-            margin-top: 20px;
-            
-        }
-
-        .ac1{
-            width: 80%;
-            margin: auto;
-            margin-top: 30px;
-        }
-
+.ac1{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
